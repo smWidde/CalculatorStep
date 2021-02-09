@@ -26,7 +26,12 @@
                 android:layout_span="4"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="numberDecimal" />
+                android:foregroundGravity="fill"
+                android:gravity="right"
+                android:inputType="numberDecimal"
+                android:textAlignment="textEnd"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
         </TableRow>
 
         <TableRow
@@ -41,12 +46,12 @@
                 android:layout_height="fill_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="#343634"
                 android:fontFamily="monospace"
                 android:text="C"
                 android:textColor="#FFFFFF"
                 android:textSize="30sp"
-                app:backgroundTint="#5E5E5E" />
+                app:backgroundTint="#343634"
+                app:rippleColor="#9F9F9F" />
 
             <Button
                 android:id="@+id/button100"
@@ -54,12 +59,12 @@
                 android:layout_height="fill_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="#343634"
                 android:fontFamily="monospace"
                 android:text="MC"
                 android:textColor="#FFFFFF"
                 android:textSize="30sp"
-                app:backgroundTint="#5E5E5E" />
+                app:backgroundTint="#343634"
+                app:rippleColor="#9F9F9F" />
 
             <Button
                 android:id="@+id/button101"
@@ -67,12 +72,12 @@
                 android:layout_height="fill_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="#343634"
                 android:fontFamily="monospace"
                 android:text="MR"
                 android:textColor="#FFFFFF"
                 android:textSize="30sp"
-                app:backgroundTint="#5E5E5E" />
+                app:backgroundTint="#343634"
+                app:rippleColor="#9F9F9F" />
 
             <Button
                 android:id="@+id/button102"
@@ -80,12 +85,12 @@
                 android:layout_height="fill_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="#343634"
                 android:fontFamily="monospace"
                 android:text="M+"
                 android:textColor="#FFFFFF"
                 android:textSize="30sp"
-                app:backgroundTint="#5E5E5E" />
+                app:backgroundTint="#343634"
+                app:rippleColor="#9F9F9F" />
         </TableRow>
 
         <TableRow
@@ -94,14 +99,20 @@
             android:layout_weight="1"
             android:weightSum="4">
 
-            <ImageButton
-                android:id="@+id/imageButton"
+            <Button
+                android:id="@+id/button"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="#343634"
-                app:srcCompat="@drawable/ic_baseline_backspace_24" />
+                android:drawingCacheQuality="auto"
+                android:fontFamily="monospace"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                app:backgroundTint="#343634"
+                app:icon="@drawable/ic_baseline_backspace_24"
+                app:iconGravity="textEnd"
+                app:rippleColor="#9F9F9F" />
 
             <Button
                 android:id="@+id/button97"
@@ -109,12 +120,12 @@
                 android:layout_height="fill_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="#343634"
                 android:fontFamily="monospace"
                 android:text="±"
                 android:textColor="#FFFFFF"
                 android:textSize="30sp"
-                app:backgroundTint="#5E5E5E" />
+                app:backgroundTint="#343634"
+                app:rippleColor="#9F9F9F" />
 
             <Button
                 android:id="@+id/button98"
@@ -122,12 +133,12 @@
                 android:layout_height="fill_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="#343634"
                 android:fontFamily="monospace"
                 android:text="%"
                 android:textColor="#FFFFFF"
                 android:textSize="30sp"
-                app:backgroundTint="#5E5E5E" />
+                app:backgroundTint="#343634"
+                app:rippleColor="#9F9F9F" />
 
             <Button
                 android:id="@+id/button99"
@@ -135,12 +146,12 @@
                 android:layout_height="fill_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="#343634"
                 android:fontFamily="monospace"
                 android:text="÷"
                 android:textColor="#FFFFFF"
                 android:textSize="30sp"
-                app:backgroundTint="#5E5E5E" />
+                app:backgroundTint="#343634"
+                app:rippleColor="#9F9F9F" />
         </TableRow>
 
         <TableRow
@@ -155,12 +166,11 @@
                 android:layout_height="fill_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="#1C1E1C"
                 android:fontFamily="monospace"
                 android:text="7"
                 android:textColor="#FFFFFF"
                 android:textSize="30sp"
-                app:backgroundTint="#373737" />
+                app:backgroundTint="#2B2B2B" />
 
             <Button
                 android:id="@+id/button93"
@@ -168,12 +178,11 @@
                 android:layout_height="fill_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="#1C1E1C"
                 android:fontFamily="monospace"
                 android:text="8"
                 android:textColor="#FFFFFF"
                 android:textSize="30sp"
-                app:backgroundTint="#373737" />
+                app:backgroundTint="#2B2B2B" />
 
             <Button
                 android:id="@+id/button94"
@@ -181,12 +190,11 @@
                 android:layout_height="fill_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="#1C1E1C"
                 android:fontFamily="monospace"
                 android:text="9"
                 android:textColor="#FFFFFF"
                 android:textSize="30sp"
-                app:backgroundTint="#373737" />
+                app:backgroundTint="#2B2B2B" />
 
             <Button
                 android:id="@+id/button95"
@@ -194,12 +202,12 @@
                 android:layout_height="fill_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="#343634"
                 android:fontFamily="monospace"
                 android:text="×"
                 android:textColor="#FFFFFF"
                 android:textSize="30sp"
-                app:backgroundTint="#5E5E5E" />
+                app:backgroundTint="#343634"
+                app:rippleColor="#9F9F9F" />
         </TableRow>
 
         <TableRow
@@ -214,12 +222,11 @@
                 android:layout_height="fill_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="#1C1E1C"
                 android:fontFamily="monospace"
                 android:text="6"
                 android:textColor="#FFFFFF"
                 android:textSize="30sp"
-                app:backgroundTint="#373737" />
+                app:backgroundTint="#2B2B2B" />
 
             <Button
                 android:id="@+id/button89"
@@ -227,12 +234,11 @@
                 android:layout_height="fill_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="#1C1E1C"
                 android:fontFamily="monospace"
                 android:text="5"
                 android:textColor="#FFFFFF"
                 android:textSize="30sp"
-                app:backgroundTint="#373737" />
+                app:backgroundTint="#2B2B2B" />
 
             <Button
                 android:id="@+id/button90"
@@ -240,12 +246,11 @@
                 android:layout_height="fill_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="#1C1E1C"
                 android:fontFamily="monospace"
                 android:text="4"
                 android:textColor="#FFFFFF"
                 android:textSize="30sp"
-                app:backgroundTint="#373737" />
+                app:backgroundTint="#2B2B2B" />
 
             <Button
                 android:id="@+id/button91"
@@ -253,12 +258,12 @@
                 android:layout_height="fill_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="#343634"
                 android:fontFamily="monospace"
                 android:text="-"
                 android:textColor="#FFFFFF"
                 android:textSize="30sp"
-                app:backgroundTint="#5E5E5E" />
+                app:backgroundTint="#343634"
+                app:rippleColor="#9F9F9F" />
         </TableRow>
 
         <TableRow
@@ -273,12 +278,11 @@
                 android:layout_height="fill_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="#1C1E1C"
                 android:fontFamily="monospace"
                 android:text="3"
                 android:textColor="#FFFFFF"
                 android:textSize="30sp"
-                app:backgroundTint="#373737" />
+                app:backgroundTint="#2B2B2B" />
 
             <Button
                 android:id="@+id/button85"
@@ -286,12 +290,11 @@
                 android:layout_height="fill_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="#1C1E1C"
                 android:fontFamily="monospace"
                 android:text="2"
                 android:textColor="#FFFFFF"
                 android:textSize="30sp"
-                app:backgroundTint="#373737" />
+                app:backgroundTint="#2B2B2B" />
 
             <Button
                 android:id="@+id/button86"
@@ -299,12 +302,11 @@
                 android:layout_height="fill_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="#1C1E1C"
                 android:fontFamily="monospace"
                 android:text="1"
                 android:textColor="#FFFFFF"
                 android:textSize="30sp"
-                app:backgroundTint="#373737" />
+                app:backgroundTint="#2B2B2B" />
 
             <Button
                 android:id="@+id/button87"
@@ -312,12 +314,12 @@
                 android:layout_height="fill_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="#343634"
                 android:fontFamily="monospace"
                 android:text="+"
                 android:textColor="#FFFFFF"
                 android:textSize="30sp"
-                app:backgroundTint="#5E5E5E" />
+                app:backgroundTint="#343634"
+                app:rippleColor="#9F9F9F" />
         </TableRow>
 
         <TableRow
@@ -333,12 +335,11 @@
                 android:layout_margin="4dp"
                 android:layout_span="2"
                 android:layout_weight="1"
-                android:background="#1C1E1C"
                 android:fontFamily="monospace"
                 android:text="0"
                 android:textColor="#FFFFFF"
                 android:textSize="30sp"
-                app:backgroundTint="#373737" />
+                app:backgroundTint="#2B2B2B" />
 
             <Button
                 android:id="@+id/button80"
@@ -346,12 +347,11 @@
                 android:layout_height="fill_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="#1C1E1C"
                 android:fontFamily="monospace"
                 android:text="."
                 android:textColor="#FFFFFF"
                 android:textSize="30sp"
-                app:backgroundTint="#373737" />
+                app:backgroundTint="#2B2B2B" />
 
             <Button
                 android:id="@+id/button79"
@@ -359,7 +359,6 @@
                 android:layout_height="fill_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:background="#2C9A34"
                 android:fontFamily="monospace"
                 android:text="="
                 android:textColor="#FFFFFF"
